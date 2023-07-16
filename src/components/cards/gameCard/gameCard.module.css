@@ -33,3 +33,15 @@
     color: #beeb14;
     font-size: 32px;
 }
+
+@media (max-width: 700px){
+    .image{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .gamecard{
+        flex-direction: column;
+    }
+}
