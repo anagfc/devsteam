@@ -1,0 +1,16 @@
+.input{
+    background: #316282;
+    padding: 10px;
+    color: white;
+    border: 0;
+    outline: 0;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+.input::placeholder{
+    color: #c8c8c8;
+    font-style: italic;
+}
